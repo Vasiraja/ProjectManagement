@@ -1,0 +1,255 @@
+ .Homecomponent{
+     position:absolute;
+    top:120px;
+    margin-left: 45px;
+    width: 1250px;
+    height: 90vh;
+    display: flex;
+
+  
+ }
+ .firstcardcontainer{
+    margin: 10px;
+    position: relative;
+ 
+}
+.firstcardcontainer .box{
+    width: 1000px;
+}
+ .firstcardcontainer .cardheader:hover{
+    cursor:grab;
+ 
+ }
+ .firstcardcontainer .cardheader:active{
+    cursor: grabbing;
+ }
+  .sideheader{
+     position: relative;
+     right: 70px;
+    font-size: 13px;
+ 
+ }
+ .asideheader{
+    position: relative;
+    left: 60px;
+ }
+ .firstcardcontainer .box {
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  box-sizing: border-box;
+  overflow: auto;
+  
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.firstcardcontainer .cardheader{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-bottom: 20px;
+    position: relative;
+    bottom:100px;
+    gap:350px;
+    
+   
+
+}
+.secondcardcontainer .cardheader{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap: 150px;
+    position: relative;
+    top: -50px;
+}
+.header-item-expand{
+cursor:not-allowed;
+}
+.header-item{
+    cursor:pointer;
+}
+.asideheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     gap: 30px;
+      
+
+}
+.firstcardcontainer .box{
+    border-radius:10px;
+        border: 0.5px solid rgb(211, 210, 210);
+        padding: 10px;
+
+}
+.firstcardcontainer .box:hover{
+     border: 0.5px solid rgb(184, 183, 183);
+;
+}
+/* secondcardcontainer */
+.secondcardcontainer{
+    margin:10px;
+    margin-bottom: 200px;
+    padding: 10px;
+ }
+.secondcardcontainer .box:hover{
+    border:0.5px solid rgb(184, 183, 183);
+}
+.secondcardcontainer .cardheader{
+    position: relative;
+    bottom:35px;
+}
+.secondcardcontainer .cardheader:hover{
+    cursor: grab;
+
+}
+.secondcardcontainer .cardheader:active{
+    cursor: grabbing;
+
+}
+.secondcardcontainer .box{
+    border: 0.5px solid rgb(211, 210, 210);
+    border-radius:10px;
+
+}
+.secondcardcontainer .dayandlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.secondcardcontainer .navigatearrow{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+        gap:10px;
+
+}
+.secondcardcontainer .date{
+display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.date p{
+    font-size: 15px;
+}
+.secondcardcontainer .secondcardheader{
+    display: flex;
+    gap:120px;
+    height: 10px;
+    font-size: 10px;
+    position: relative;
+    top: -30px;
+    padding-bottom:10px;
+    border-bottom: 0.5px solid #dad8d8;
+}
+
+
+ /*Third CardContainer */
+
+ .thirdcardcontainer{
+    position: relative;
+    right:471px;
+    top:400px;
+   
+
+
+}
+.thirdcardcontainer .box{
+    border:0.5px solid #dad8d8;
+    border-radius:10px;
+}
+.thirdcardcontainer .content .cardheader{
+     display: flex;
+     position: relative;
+     bottom: 50px;
+
+   
+}
+.thirdcardcontainer .content .cardheader:hover{
+    cursor: grab;
+}
+.thirdcardcontainer .content .cardheader:active{
+    cursor:grabbing
+}
+
+.fourthcardcontainer {
+        border: 0.5px solid #dad8d8;
+        position: relative;
+        top:800px;
+        right:1650px;       
+        border-radius: 10px;
+
+height: 350px;
+margin-bottom: 10px;
+     
+
+}
+.fourthcardcontainer .tab{
+    width:100%;
+
+
+}
+.fourthcardcontainer .cardheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 800px;
+}
+.fourthcardcontainer .cardheader:hover{
+    cursor: grab;
+}
+.fourthcardcontainer .cardheader:active{
+    cursor: grabbing;
+}
+ 
+.Homecomponent h3 {
+  display: inline-block;
+  margin-bottom: 10px; /* Adjust as needed */
+}
+
+.Homecomponent br {
+  display: block;
+  margin-bottom: 10px; 
+}
+ 
+.Homenavigation{
+    width: 101%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1000px;
+    position: absolute;
+    bottom:622px;
+    height: 20px;
+    border-bottom: 0.5px solid #dad8d8;
+    padding: 10px;
+    
+
+}
+.headcontent{
+    display: flex;
+     align-items: center;
+     gap: 5px;
+     /* margin: 30px; */
+  }
+
+  .managecardbutton{
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+  }
+  .lastcontent{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+
+  }

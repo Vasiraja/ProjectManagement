@@ -1,0 +1,145 @@
+.DocsComponent{
+    position:fixed;
+    top:160px;
+    margin-left: 60px;
+    margin-top: 150px;
+    width: 1200px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.cardcontainer{
+    position: relative;
+    bottom: 230px;
+}
+.firstcard{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.wikiscontainers {
+     margin: 12px;
+     width: 1096px;
+     position: relative;
+     bottom: 250px;
+     left: 23px;
+    box-shadow: 0px 0px 2px black;
+     padding: 20px;
+     border-radius: 10px;
+     display: flex;
+     flex-direction: column;
+
+}
+ 
+.wikiscontainers .header{
+    display: flex  ;
+   gap:123px
+
+}
+
+ 
+   .wikiscontainers .content{
+    margin:7px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 20px;
+   }
+
+
+.firstwiki,.secondwiki,.thirdwiki,.fourthwiki{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    border:1px solid rgb(213, 209, 209);
+    padding: 10px;
+    font-size: 12px;
+    border-radius:5px;
+    width: 250px;
+    height: 50px;
+    
+
+}
+.firstwiki p,.secondwiki p,.thirdwiki p,.fourthwiki p{
+    color:rgb(133, 133, 133);
+}
+
+
+
+.Homenavigation{
+    width: 101%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1000px;
+    position: absolute;
+    bottom:602px;
+    height: 20px;
+    border-bottom: 0.5px solid #dad8d8;
+    padding: 10px;
+    
+
+}
+.headcontent{
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 5px;
+
+
+    }
+
+  .createdocbutton{
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+background-color: #6e5ae9 ;
+color:white;
+width: 90px;
+height:30px;
+position: relative;
+right:200px;
+bottom:2px;
+
+ }.new{ border: none;
+    padding: 7px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+background-color: #6e5ae9 ;
+color:white;
+cursor:pointer;
+height:30px
+;
+position:relative;
+border-left: 0.3px solid rgb(136, 133, 133);
+right:245px;
+bottom:2px;
+
+ }
+ .lastcontent{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .searchbutton{
+    background:#ffffff;
+    border:none;
+    width:117px;
+    padding: 5px;
+    border:0.5px solid #747474;
+    border-radius: 5px;
+    cursor:pointer;
+    margin-bottom: 5px;
+    color:#a5a0a0;
+    position:relative;
+    right:200px;
+
+ }
+  .lastcontent{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+
+  }

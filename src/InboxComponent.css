@@ -1,0 +1,47 @@
+.InboxComponent{
+     position:absolute;
+    top:47px;
+    margin-left: 45px;
+    margin-top: 100px;
+    width: 1200px;
+    height: 90vh;
+    
+}
+ 
+ 
+.managecardbutton{
+    background-color: rgb(110, 90, 233);
+    color:white;
+}
+.quoteauthor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+}
+.inboxnavigationcontainer{
+    border-bottom:1px solid rgb(208, 202, 202);
+    position:fixed;
+    width:1349px;
+    height:40px;
+    top:50px;
+    right:10px;
+}
+.listscombine{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+    list-style-type: none;
+
+}
+.listscombine li{
+    color:rgb(62, 61, 61);padding: 2px;
+    border-radius:4px;
+}
+.listscombine li:hover{
+     background-color: rgb(211, 210, 208);
+    cursor:pointer;
+    padding: 2px;
+    border-radius:4px;
+}

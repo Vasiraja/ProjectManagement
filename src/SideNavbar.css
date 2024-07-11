@@ -1,0 +1,146 @@
+
+
+.sidenavheader{
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    height: 93vh;
+    border: 1px solid rgb(241, 235, 235);
+    background-color: rgb(240, 244, 246);
+    border-bottom: none;
+    position: fixed;
+    top:30px;
+    z-index: -1;
+ 
+
+ }
+
+.dropdownmenu {
+  position:relative;
+  display:flex;
+  flex-direction: column;
+  width: 180px;
+  height:300px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+ 
+ }
+ 
+
+.dropdownmenu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: 100px;
+}
+
+.dropdownmenu li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+   cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dropdownmenu li:hover {
+  background-color: #f0efef;
+}
+
+.lists {
+  display: flex;
+  align-items: center;
+}
+
+.lists span {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.lists p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+@media (max-width: 480px) {
+  .dropdownmenu {
+    width: 100%;
+  }
+
+  .dropdownmenu li {
+    padding: 10px;
+  }
+
+  .lists p {
+    font-size: 14px;
+  }
+}
+
+ .sidenavbuttons{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+ border-bottom: 0.5px solid gray;
+ }
+ .sidenavbuttons button{
+        margin-left: 4px;
+        width:  30px;
+        height: 30px; 
+        cursor: pointer;
+                background-color: rgb(240, 244, 246);
+                display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border:none;
+                    margin-bottom: 8px;
+                    color:rgb(136, 136, 136)
+ }
+ .sidenavbuttons button:hover{
+    border-radius:5px;
+    background-color: rgb(219, 230, 230);
+    
+ }
+ .sidenavadditionalbuttons{
+   margin-top: 10px;
+   height: 400px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+
+ }
+ .firstside{
+   margin-top: 20px;
+   display: flex;
+   flex-direction: column;
+
+   gap: 15px;
+ }
+ .secondside{
+   margin-bottom: 20px;
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+
+ }
+ .firstside button , .secondside button{
+   width:  30px;
+   height: 30px; 
+   border: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 5px;
+  color:rgb(136, 136, 136)
+
+ }
+ .firstside button:hover,.secondside button:hover{
+    background-color: rgb(219, 230, 230);
+    cursor: pointer;
+
+ }
+ 
